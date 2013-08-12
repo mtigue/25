@@ -1,0 +1,107 @@
+﻿
+
+b {font-weight:normal !important; }
+
+
+
+h3.home-title  {margin:-10px 0px 15px 0px; }
+
+
+.slider-container { 
+	width:100%; 
+	max-width:800px; 
+	margin: 0 auto 
+}
+
+
+.content {margin:0px 12px 0px 12px; }
+
+/*remove top border from bottom navigation...shows up mostly on short pages */
+
+.ui-bar-a {border:0px;}
+
+
+
+.logo { 
+	width:231px; 
+	height:40px; 
+	background:url(../images/logo-sm.png) top center no-repeat;  
+	margins:0 auto;  
+}
+
+
+.title {background-image:none !important; margin-top:0px; padding:9px 0px 0px 0px; width:100%; text-align:center !Important; }
+
+
+.content-padd { padding:15px 15px 15px 15px; margin-top:0px !Important; }
+
+
+.ui-bar-c h1 {font-size:1.3em; margin:0px 25px 0px 0px; }
+
+.ui-bar-c {font-weight:normal; font-size:1em; }
+
+.ui-bar-c ul {margin-left:-10px; }
+
+
+
+.ui-bar-c {padding:12px; }
+
+
+.image-left {float:left; margin:0px 15px 10px 0px; }
+.image-right {float:right; margin:0px 0px 10px 15px; }
+
+h4 {margin:30px 0px 0px 0px !Important; }
+
+.shadow1box {margin-bottom:-15px !Important; }
+
+
+
+/* make blue shadow on click go away */
+.ui-focus,
+.ui-btn:focus {
+ -moz-box-shadow: none !important;
+ -webkit-box-shadow: none !important;
+ box-shadow: none !important;
+
+}
+
+input:focus {border:1px solid #CCCCCC !important; border-radius:10px !important; }
+
+
+.ui-btn-active 
+{ 
+    color: #2F3E46 !important; 
+    background: none !important; 
+    background-color: #eee !important; 
+    text-shadow: 0 /*{a-bup-shadow-x}*/ 
+                 1px /*{a-bup-shadow-y}*/ 
+                 0 /*{a-bup-shadow-radius}*/ 
+                 #ffffff /*{a-bup-shadow-color}*/;  
+}
+/* end make blue shadow on click go away */
+
+
+
+
+
+.readingSource {float:right; font-style:italic; margin-top:-21px; font-size:.8em; }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min--moz-device-pixel-ratio:1.5),only screen and (min-resolution:240dpi){
+.logo { 
+	width:231px; 
+	height:40px; 
+	background:url(../images/logo.png) top center no-repeat;  
+	margin:0 auto;
+	background-size: 185px 40px;
+}
+}
+
