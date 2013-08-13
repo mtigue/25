@@ -357,7 +357,7 @@ h1.ui-title {
    Link Bars with Large Arrows
    ========================================================================== */
    
-li .ui-btn-text {background:url(../images/pattern2.png) #4B000F; background-size: 20px 20px;}
+li .ui-btn-text {background:url(../images/pattern2.png) #406476; background-size: 20px 20px;}
 
 a.ui-link-inherit {
 	background:url(../images/arrow.png) right no-repeat; 
@@ -374,7 +374,7 @@ a.ui-link-inherit {
 }
 	
 a.ui-link-inherit:hover {
-	background:url(../images/arrow.png) right no-repeat #560817;
+	background:url(../images/arrow.png) right no-repeat #406476;
 	background-size: 25px 30px;
 	color:#f7eabb !important; 
 }

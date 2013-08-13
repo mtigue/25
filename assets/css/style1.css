@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Mobilize 1.3.0 
 *
 * See Themeforest for licensing info: bit.ly/J1pmCc
@@ -213,7 +213,7 @@ hr.ornamental {
 
 /* =============================================================================
    Button Styles
-   ========================================================================== */
+   ========================================================================== 
 
 .ui-btn-up-c {
 	border: 1px solid #111;
@@ -358,7 +358,7 @@ h1.ui-title {
 
 /* =============================================================================
    Link Bars with Large Arrows
-   ========================================================================== */
+   ========================================================================== *
 
 li .ui-btn-text {background:url(../images/pattern2.png) #0A202B; background-size: 20px 20px;}
 
@@ -367,9 +367,16 @@ a.ui-link-inherit {
 	background-size: 25px 30px;
 	
 	font-family: 'Kaushan Script', cursive; font-size:18px; 
+	/* font-family: 'Lobster', cursive; font-size:18px; 
+	
+a.ui-link-inherit {
+	background:url(../images/arrow.png) right no-repeat; 
+	background-size: 25px 30px;
+	
+	font-family: 'Kaushan Script', cursive; font-size:18px; 
 	/* font-family: 'Lobster', cursive; font-size:18px; */
 	/* font-family: 'Cabin', sans-serif; font-weight: 700; font-size:18px; */
-	/* font-family: 'Droid Serif', serif; font-weight:700; font-style:italic; font-size:17px; */
+	/* font-family: 'Droid Serif', serif; font-weight:700; font-style:italic; font-size:17px;
 	
 	color:#eee !important;
 	text-shadow: 0 -1px 1px #000;
@@ -386,7 +393,7 @@ a.ui-link-inherit:hover {
 
 /* =============================================================================
    Overwrite jQuery Mobile Styles
-   ========================================================================== */
+   ========================================================================== 
    
 .ui-header .ui-title, .ui-footer .ui-title {
 	margin: 0.8em 90px;
@@ -530,7 +537,7 @@ li.ui-li-divider {
 
 /* =============================================================================
    Footer Navigation
-   ========================================================================== */
+   ========================================================================== 
 
 .ui-btn-up-b { 
 	border: 1px solid #333;
